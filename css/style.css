@@ -1,0 +1,41 @@
+body{
+    background-color: #f3770c;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+*{
+    font-family: cursive;
+    box-sizing: border-box;
+}
+form{
+    width: 1000px;
+    border: 3px solid rgb(230,210,39);
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(233,236,40);
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    outline: none;
+    height: 50px;
+}
+button{
+    width: 95%;
+    height: 50px;
+}
+button:hover{
+    background-color: aqua;
+}
+.error{
+    background-color: red;
+}
